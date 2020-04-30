@@ -22,6 +22,8 @@ const countLetters = function(inputString) {
   return results;
 };
 
+
+
 const result = countLetters("lighthouse in the house");
 
 assertEqual(result["l"], 1);
