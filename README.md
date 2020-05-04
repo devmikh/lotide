@@ -31,7 +31,7 @@ The following functions are currently implemented:
 * `assertObjectsEqual(actual, expected)`: assert two objects are equal
 * `countLetters(string)`: returns a count of each of the letters in the passed string
 * `countOnly(allItems, itemsToCount)`: returns a count for a specific subset of passed items
-* `eqArrays(arr1, arr2)`: compares two arrays and returns a boolean
+* `eqArrays(array1, array2)`: compares two arrays and returns a boolean
 * `eqObjects(object1, object2)`: compares two objects and returns a boolean
 * `findKey(object, callback)`: scans the object and returns the first key for which the callback returns a truthy value
 * `findKeyByValue(object, value)`: scans the object and returns the first key which contains the given value
