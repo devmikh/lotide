@@ -1,6 +1,6 @@
 const middle = function(array) {
   let midPart = [];
-  if (array.length <= 2){
+  if (array.length <= 2) {
     return midPart;
   } else if (array.length % 2 !== 0) {
     midPart.push(array[Math.floor(array.length / 2)]);
@@ -9,6 +9,6 @@ const middle = function(array) {
     midPart.push(array[array.length / 2]);
   }
   return midPart;
-}
+};
 
 module.exports = middle;
